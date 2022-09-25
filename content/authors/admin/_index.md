@@ -16,14 +16,14 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
   - Artificial Intelligence for Scicence
-  - Simulation based on physics
+  - Simulation based on Physics
   - Computer Graphics
-  - Numerical calculation methods
+  - Numerical Calculation Algorithms
   - Deep Learning
 
 # Education to show in About widget
@@ -47,12 +47,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'Howw1225@Gmail.com'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/GeorgeCushen
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=i2lwmvcAAAAJ&hl=zh-CN
   - icon: github
     icon_pack: fab
     link: https://github.com/Howw-Way
@@ -74,9 +74,9 @@ email: 'Howw1225@Gmail.com'
 highlight_name: true
 ---
 
-I am fascinated by reconstructing phenomenons in real world by models, which combines the beauty of mathematics, the power of computing and the aesthetics of physics principle.
+I am fascinated by reconstructing some subjects in real world by models, which combines the beauty of mathematics, the power of computing and the aesthetics of physics principle.
 
-Currently, my research aims to address the question, 'How to bond AI algorithms and physics equations to simulate the real world',specifically, on the field of fluid flow and the reaction (gas-solid combustion). 
+Currently, my research aims to address the question, 'How to bond AI algorithms and physics equations to simulate the real world', specifically, on the field of fluid flow and the reaction (gas-solid combustion). 
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
