@@ -6,7 +6,7 @@ title: Hao Wei
 superuser: true
 
 # Role/position/tagline
-role: Computation, Modeling, and Reconstruction
+role: Computation, Modelling, and Reconstruction
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -50,8 +50,9 @@ social:
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
+  # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  - icon: google-scholar
+    icon_pack: ai
     link: https://scholar.google.com/citations?user=i2lwmvcAAAAJ&hl=zh-CN
   - icon: github
     icon_pack: fab
@@ -76,7 +77,6 @@ highlight_name: true
 
 I am fascinated by reconstructing some subjects in real world by models, which combines the beauty of mathematics, the power of computing and the aesthetics of physics principle.
 
-Currently, my research aims to address the question, 'How to bond AI algorithms and physics equations to simulate the real world', specifically, on the field of fluid flow and the reaction (gas-solid combustion). 
-
+Currently, my research aims to address the question, "How to bond AI algorithms and physics equations to simulate the real world", specifically, on the field of fluid flow and the reaction (gas-solid combustion). 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
