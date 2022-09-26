@@ -1,5 +1,5 @@
 ---
-title: 'An example conference paper'
+title: 'The effect of {{CO_2}} on the lower flammability limit of {{<C_3H_8>}} in <O_2/CO_2> atmosphere at high temperature and pressure'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
