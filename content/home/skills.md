@@ -31,21 +31,21 @@ feature:
     icon_pack: custom
     name: PyTorch
   - description: Familiar
-    icon: c-
+    icon: cpp2
     icon_pack: custom
     name: C++
   - description: Familiar
     icon: Tensorflow
     icon_pack: custom
-    name: TensorFlow
-  - description: Familiar
-    icon: OpenFOAM_logo
-    icon_pack: custom
-    name: Cantera
-  # - description: Learning
-  #   icon: taichi
+  #   name: TensorFlow
+  # - description: Familiars
+  #   icon: OpenFOAM_logo
   #   icon_pack: custom
-  #   name: Taichi
+  #   name: Cantera
+  - description: Learning
+    icon: taichi
+    icon_pack: custom
+    name: Taichi
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"
