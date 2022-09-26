@@ -25,7 +25,7 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: Howw@Gmail.com
+  email: Howw1225@Gmail.com
   phone: (86) 15023072707
   address:
     street: 38 Zheda Road

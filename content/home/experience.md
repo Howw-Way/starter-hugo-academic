@@ -33,7 +33,7 @@ experience:
         Responsibilities include:
         * Working on using AI algorithm (Fourier Neural Operator, FNO) solving Partial Differential Equation (PDE)
         * Coding SIMPLE solver based on Finite Difference Method (FDM)
-        * Coding direct simulation based on Finite Volum Method (FVM)
+        * Coding direct simulation based on Finite Volume Method (FVM)
 
   # - title: Professor of Semiconductor Physics
   #   company: University X
