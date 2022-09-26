@@ -1,5 +1,5 @@
 ---
-title: 'An example conference paper'
+title: 'Predicting co-pyrolysis of coal and biomass using machine learning approaches'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -11,9 +11,9 @@ authors:
   - Jianren Fan
 
 # Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
 
 date: '2021-10-20'
 doi: 'https://doi.org/10.1016/j.fuel.2021.122248'
