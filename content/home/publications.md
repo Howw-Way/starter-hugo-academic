@@ -34,7 +34,8 @@ content:
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
-  
+
+content:
     # Filter on criteria
   filters:
     folders:
