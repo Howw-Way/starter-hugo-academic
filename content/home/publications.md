@@ -39,7 +39,7 @@ content:
     # Filter on criteria
   filters:
     folders:
-      - publication_1
+      - pub
     tag: ''
     category: ''
     publication_type: ''
