@@ -18,18 +18,34 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - description: most used
+  - description: Adept
     icon: python
     icon_pack: fab
     name: Python
-  - description: Familiar 
+  - description: Adept 
     icon: chart-line
     icon_pack: fas
-    name: Statistics
-  - description: 10%
-    icon: camera-retro
-    icon_pack: fas
-    name: Photography
+    name: Data Analysis
+  - description: Familiar
+    icon: c-
+    icon_pack: custom
+    name: C++
+  - description: Most used
+    icon: PyTorch
+    icon_pack: custom
+    name: PyTorch
+  - description: Familiar
+    icon: Tensorflow
+    icon_pack: custom
+    name: TensorFlow
+  - description: Familiar
+    icon: cantera-logo
+    icon_pack: custom
+    name: Cantera
+  - description: Learning
+    icon: taichi
+    icon_pack: custom
+    name: Taichi
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"
