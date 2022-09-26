@@ -37,15 +37,17 @@ feature:
   - description: Familiar
     icon: Tensorflow
     icon_pack: custom
+    name: TensorFlow
+
   #   name: TensorFlow
   # - description: Familiars
   #   icon: OpenFOAM_logo
   #   icon_pack: custom
   #   name: Cantera
-  - description: Learning
-    icon: taichi
+  - description: Familiar
+    icon: Scikit_learn_logo_small
     icon_pack: custom
-    name: Taichi
+    name: ScikitLearn
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"
