@@ -79,6 +79,7 @@ image:
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 # slides: example
+---
 
 ---
 title: 'Predicting co-pyrolysis of coal and biomass using machine learning approaches'
@@ -146,6 +147,7 @@ image:
   # caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ''
   preview_only: false
+
 ---
 
 <!-- {{% callout note %}}
