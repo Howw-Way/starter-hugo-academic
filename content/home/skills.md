@@ -11,7 +11,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Skills
+title: Toolbox
 subtitle:
 
 # Showcase personal skills or business features.
@@ -22,28 +22,26 @@ feature:
     icon: python
     icon_pack: fab
     name: Python
-  # - description: Adept 
-  #   icon: chart-line
-  #   icon_pack: fas
-  #   name: Data Analysis
+  - description: Adept 
+    icon: chart-line
+    icon_pack: fas
+    name: Data Analysis
   - description: Adept
     icon: PyTorch
     icon_pack: custom
     name: PyTorch
-
   - description: Familiar
     icon: c-
     icon_pack: custom
     name: C++
-
-  # - description: Familiar
-  #   icon: Tensorflow
-  #   icon_pack: custom
-  #   name: TensorFlow
-  # - description: Familiar
-  #   icon: cantera-logo
-  #   icon_pack: custom
-  #   name: Cantera
+  - description: Familiar
+    icon: Tensorflow
+    icon_pack: custom
+    name: TensorFlow
+  - description: Familiar
+    icon: cantera-logo
+    icon_pack: custom
+    name: Cantera
   # - description: Learning
   #   icon: taichi
   #   icon_pack: custom
