@@ -75,7 +75,7 @@ email: 'Howw1225@Gmail.com'
 highlight_name: true
 ---
 
-I am fascinated by reconstructing some subjects in real world by models, which combines the beauty of mathematics, the power of computing and the aesthetics of physics principle.
+I am obsessed with reconstructing some subjects in real world by models, which combines the beauty of mathematics, the power of computing and the aesthetics of physics principle.
 
 Currently, my research aims to address the question, "How to bond AI algorithms and physics equations to simulate the real world", specifically, on the field of fluid flow and the reaction (gas-solid combustion). 
 
