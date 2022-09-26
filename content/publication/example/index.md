@@ -6,35 +6,38 @@ title: 'An example conference paper'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
+  - Kun Luo
+  - Jiangkuan Xing
+  - Jianren Fan
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
-doi: ''
+date: '2021-10-20'
+doi: 'https://doi.org/10.1016/j.fuel.2021.122248'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2021-10-20'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['1']
+publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+publication: In *Fuel*
+publication_short: In *Fuel*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Coal and biomass co-thermochemical conversion has caught significant attentions, in which the co-pyrolysis is always the primary process. The traditional pyrolysis kinetic models are developed individually for coal and biomass, in which the synergistic effect wasn’t comprehensively considered. In the present study, we innovatively explored a new method to accurately model this process using machine learning approaches, specifically the random forest algorithm based on classification and regression trees and extremely trees. First, a co-pyrolysis database is constructed from experimental data in published literatures, then divided into several sub-sets for training, application, and optimization, respectively. The machine learning models are trained on the training data-set, tested on the test data-set, and applicated on the new data-set. The training and test results demonstrate both models are able to well predict the co-pyrolysis (R2 > 0.999), and the application results demonstrate models also perform well at outside data (R2 > 0.873), with model based on extremely trees performs better owing to its better accuracy, generalization and less overfitting. It also demonstrates the known of biomass pyrolysis will be better than known of coal pyrolysis. In addition, the suggestion of input feature groups is given through parametric study, and variable importance measurement are explored.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Establishing co-pyrolysis model based on machine learning algorithm, which is the key model for gas-soild reaction flow. 
 
 tags: []
+
 
 # Display this page in the Featured widget?
 featured: true
@@ -44,7 +47,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://www.sciencedirect.com/science/article/abs/pii/S0016236121021220?via%3Dihub#!'
 url_code: ''
 url_dataset: ''
 url_poster: ''
