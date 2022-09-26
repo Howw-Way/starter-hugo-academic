@@ -27,7 +27,7 @@ feature:
     icon_pack: fas
     name: Data Analysis
   - description: Adept
-    icon: PyTorch
+    icon: pytorch-icon
     icon_pack: custom
     name: PyTorch
   - description: Familiar
@@ -39,7 +39,7 @@ feature:
     icon_pack: custom
     name: TensorFlow
   - description: Familiar
-    icon: cantera-logo
+    icon: OpenFOAM_logo
     icon_pack: custom
     name: Cantera
   # - description: Learning
