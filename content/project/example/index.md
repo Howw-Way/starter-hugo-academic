@@ -39,12 +39,13 @@ Some part of this notes is based on the book "Numerical Methods for Computationa
 
 # Problem description
 
-即给定初始条件和微分方程(时间导数)，要求按时间推进求解
+That is, the initial conditions and the differential equation (time derivative) are given, then the solution can be given by time stepping.
+
 $$\mathbf {\dot{y}}=\mathbf{f}(t,\mathbf{y}),\space{} \mathbf{y(t_0)}=\mathbf{y_0}$$
 We can calculate the $\mathbf{y}$ on a temporal mesh covering the time interval between initial time $t_0$ and final time $T$.
 
 $$(\mathbf{y}^{n},h^{n}) \mapsto \mathbf{\Psi}(\mathbf{y}^{n},h^{n})=\mathbf{y}^{n+1}$$
-$\mathbf{\Psi}$表示离散算子
+$\mathbf{\Psi}$ stands for the operator of discretization. 
 
 其实所有的时间推进如果按相似的离散方式表示，均为：
 下个时间步结果=上个时间步的数据+时间步长*斜率，接下来即将介绍的各种方法的区别仅为对斜率的构造方法不同。
@@ -129,10 +130,10 @@ Then apply this formula in $t=\frac{1}{2}(t_k+t_{K+1})$
 
 $$ \mathbf{y}^{n+1}=\mathbf{y}^{n}+\frac{dt}{6}(k_1+2k_2+2k_3+k_4) $$
 
-$ k_1=\mathbf{f}(t_n,\mathbf{y}_n) $
-$ k_2=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_1) $
-$ k_3=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_2)$
-$ k_4=\mathbf{f}(t_n+dt,\mathbf{y}_n+dtk_3)$
+$$ k_1=\mathbf{f}(t_n,\mathbf{y}_n) $$
+$$ k_2=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_1) $$
+$$ k_3=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_2)$$
+$$ k_4=\mathbf{f}(t_n+dt,\mathbf{y}_n+dtk_3)$$
 
 <!-- $$\begin{aligned}
 & \mathbf{y}^{n+1}=\mathbf{y}^{n}+\frac{dt}{6}(k_1+2k_2+2k_3+k_4) \\
@@ -163,11 +164,13 @@ For implict midpoint method:
 $$y^{n+1}=y^n+dt*\frac{y^{n+1}+y^{n}}{2} \longrightarrow y^{n+1}=\frac{1+\frac{1}{2}dt}{1-\frac{1}{2}dt}y^n$$
 
 For Runge-Kutta-4 method:
-$$\begin{aligned}
-& y^{i+1}=y^i+dt*\frac{dt}{6}\mathbf{k} \\
-& \mathbf{k}=(k_1+2k_2+2k_3+k_4) \\
-& k_1=y_n,\space{} k_2=y_n+\frac{dt}{2}k_1, \space{} k_3=y_n+\frac{dt}{2}k_2, \space{} k_4=y_n+dtk_3\\
-\end{aligned}$$
+
+$$ \mathbf{y}^{n+1}=\mathbf{y}^{n}+\frac{dt}{6}(k_1+2k_2+2k_3+k_4) $$
+
+$$ k_1=\mathbf{f}(t_n,\mathbf{y}_n) $$
+$$ k_2=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_1) $$
+$$ k_3=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_2)$$
+$$ k_4=\mathbf{f}(t_n+dt,\mathbf{y}_n+dtk_3)$$
 
 In this code, explict method, implict method, implicit midpoint and the exact solution have been calculated and presented in figure. 
 
