@@ -86,8 +86,10 @@ $$\begin{aligned}
 
 Implict Euler method is based on backward difference quotient: 
 
+$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}(t_n,\mathbf{y^{n+1}}), n=0,1,2,..,N-1$$
 
-$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}\left ( t_{n+1},y^{n+1}\right ) , n=0,1,2,..,N-1$$
+
+$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}( t_{n+1},y^{n+1}) , n=0,1,2,..,N-1$$
 
 
 $$\begin{aligned}
