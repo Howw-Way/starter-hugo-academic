@@ -93,7 +93,7 @@ $$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac
 
 
 $$\begin{aligned}
-&\Rightarrow \frac{y^{n+1}_i-y^{n}_i}{h_n}=\mathbf{f}(t_{n+1},y^{n+1}_i) \\
+&\Rightarrow \frac{y^{n+1}_i-y^{n}_i}{h_n}=\mathbf{f} \left (t_{n+1},y^{n+1}_i \right ) \\
 & \Rightarrow y^{n+1}_i=y^{n}_i+h_n*\mathbf{f}(t_{n+1},y^{n+1}_i) \end{aligned}$$
 
 
