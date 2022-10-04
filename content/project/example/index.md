@@ -87,13 +87,12 @@ $$\begin{aligned}
 Implict Euler method is based on backward difference quotient: 
 
 ![](./figure//eqIEM.jpg)
-
-$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx f ( t_{n+1},y^{n+1}) , n=0,1,..,N-1$$
-
+<!-- 
+$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f} ( t_{n+1},y^{n+1}) , n=0,1,..,N-1$$
 
 $$\begin{aligned}
 &\Rightarrow \frac{y^{n+1}_i-y^{n}_i}{h_n}=\mathbf{f} \left (t_{n+1},y^{n+1}_i \right ) \\
-& \Rightarrow y^{n+1}_i=y^{n}_i+h_n*\mathbf{f}(t_{n+1},y^{n+1}_i) \end{aligned}$$
+& \Rightarrow y^{n+1}_i=y^{n}_i+h_n*\mathbf{f}(t_{n+1},y^{n+1}_i) \end{aligned}$$ -->
 
 
 **说明:** 显然，此时等式左右两边均出现了未知数$y^{n+1}_i$，由于$\mathbf{f}$是已知的，故通常做法是将等式右边的$y^{n+1}_i$移到等式左边，再经过变形，获得一组方程组，联立方程组进行求解。
@@ -114,8 +113,9 @@ $$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac
 
 Then apply this formula in $t=\frac{1}{2}(t_k+t_{K+1})$
 
+![](./figure/eqImid.jpg)
 
-$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Symmetric \space{} difference}\approx \mathbf{f}(\frac{1}{2}(t_n+t_{n+1}),\frac{1}{2}(\mathbf{y^{n}}+\mathbf{y^{n+1}})), n=0,1,2,..,N-1$$
+<!-- $$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Symmetric \space{} difference}\approx \mathbf{f}(\frac{1}{2}(t_n+t_{n+1}),\frac{1}{2}(\mathbf{y^{n}}+\mathbf{y^{n+1}})), n=0,1,2,..,N-1$$ -->
 
 
 **理解：** 此时的斜率是在在$(t^*,y^*)$取得的，该点依然是未知的，但是基于已知和位置点共同构造的（暂时不知道好处在哪里）
@@ -127,14 +127,22 @@ $$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac
 
 欧拉显示和欧拉隐式的精度都是一阶，而Runge-Kutta通过几次构造半时间步，获得了四阶精度，但龙格库塔本质上还是一个显示方法，并不涉及任何方程组的求解，可以理解为通过四次构造斜率，使得斜率最接近真实值
 
+$$ \mathbf{y}^{n+1}=\mathbf{y}^{n}+\frac{dt}{6}(k_1+2k_2+2k_3+k_4) $$
 
 $$\begin{aligned}
-& \mathbf{y}^{n+1}=\mathbf{y}^{n}+\frac{dt}{6}(k_1+2k_2+2k_3+k_4) \\
 &k_1=\mathbf{f}(t_n,\mathbf{y}_n) \\
 &k_2=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_1) \\
 &k_3=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_2) \\
 &k_4=\mathbf{f}(t_n+dt,\mathbf{y}_n+dtk_3)
 \end{aligned}$$
+
+<!-- $$\begin{aligned}
+& \mathbf{y}^{n+1}=\mathbf{y}^{n}+\frac{dt}{6}(k_1+2k_2+2k_3+k_4) \\
+&k_1=\mathbf{f}(t_n,\mathbf{y}_n) \\
+&k_2=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_1) \\
+&k_3=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_2) \\
+&k_4=\mathbf{f}(t_n+dt,\mathbf{y}_n+dtk_3)
+\end{aligned}$$ -->
 
 
 # Case: simple function
