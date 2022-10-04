@@ -129,12 +129,10 @@ Then apply this formula in $t=\frac{1}{2}(t_k+t_{K+1})$
 
 $$ \mathbf{y}^{n+1}=\mathbf{y}^{n}+\frac{dt}{6}(k_1+2k_2+2k_3+k_4) $$
 
-$$\begin{aligned}
-&k_1=\mathbf{f}(t_n,\mathbf{y}_n) \\
-&k_2=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_1) \\
-&k_3=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_2) \\
-&k_4=\mathbf{f}(t_n+dt,\mathbf{y}_n+dtk_3)
-\end{aligned}$$
+$ k_1=\mathbf{f}(t_n,\mathbf{y}_n) $
+$ k_2=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_1) $
+$ k_3=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_2)$
+$ k_4=\mathbf{f}(t_n+dt,\mathbf{y}_n+dtk_3)$
 
 <!-- $$\begin{aligned}
 & \mathbf{y}^{n+1}=\mathbf{y}^{n}+\frac{dt}{6}(k_1+2k_2+2k_3+k_4) \\
