@@ -48,6 +48,7 @@ $\mathbf{\Psi}$表示离散算子
 
 其实所有的时间推进如果按相似的离散方式表示，均为：
 下个时间步结果=上个时间步的数据+时间步长*斜率，接下来即将介绍的各种方法的区别仅为对斜率的构造方法不同。
+
 $$\begin{aligned}
 & \frac{y^{n+1}_i-y^{n}_i}{dt}=\mathbf{f}(t,\mathbf{y}) \\
 & \Rightarrow y^{n+1}_i=y^{n}_i+dt*\mathbf{f}(t,\mathbf{y}) \end{aligned}$$
@@ -56,7 +57,7 @@ $$\begin{aligned}
 Assuming $$h_n=t_{n+1}-t_n$$
 The $\mathbf{\dot{y}}$ stands for the differential $\mathbf{y}$ with time, $\mathbf{y}$ is the value tensor, $y_i$ is the i components. 
 
-本笔记中脚标_i用于表示空间离散，上标^n，用于时间离散
+In this note, the subscript($a_i$) stands for the spatial discretization and the superscript($a^n$) stands for the time discretization. 
 
 ## Explict Euler method
 Explict Euler method is based on forward difference quotient: 
