@@ -86,10 +86,10 @@ $$\begin{aligned}
 
 Implict Euler method is based on backward difference quotient: 
 
-$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}(t_n,\mathbf{y^{n+1}}), n=0,1,2,..,N-1$$
+$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}(t_{n},\mathbf{y^{n+1}}), n=0,1,..,N-1$$
 
 
-$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}( t_{n+1},y^{n+1}) , n=0,1,2,..,N-1$$
+$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}( t_{n+1},y^{n+1}) , n=0,1,..,N-1$$
 
 
 $$\begin{aligned}
@@ -119,7 +119,7 @@ Then apply this formula in $t=\frac{1}{2}(t_k+t_{K+1})$
 $$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Symmetric \space{} difference}\approx \mathbf{f}(\frac{1}{2}(t_n+t_{n+1}),\frac{1}{2}(\mathbf{y^{n}}+\mathbf{y^{n+1}})), n=0,1,2,..,N-1$$
 
 
-**理解：** 此时的斜率是在在$(t_*,y_*)$取得的，该点依然是未知的，但是基于已知和位置点共同构造的（暂时不知道好处在哪里）
+**理解：** 此时的斜率是在在$(t^*,y^*)$取得的，该点依然是未知的，但是基于已知和位置点共同构造的（暂时不知道好处在哪里）
 
 ![](figure/IMM.jpg)
 
