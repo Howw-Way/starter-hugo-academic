@@ -33,6 +33,8 @@ content:
       tag: '*'
     - name: Deep Learning
       tag: Deep Learning
+    - name: Simulation
+      tag: Simulation
     - name: Other
       tag: Demo
 
