@@ -50,7 +50,7 @@ $\mathbf{\Psi}$表示离散算子
 下个时间步结果=上个时间步的数据+时间步长*斜率，接下来即将介绍的各种方法的区别仅为对斜率的构造方法不同。
 $$\begin{aligned}
 & \frac{y^{n+1}_i-y^{n}_i}{dt}=\mathbf{f}(t,\mathbf{y}) \\
-& \Rightarrow y^{n+1}_i=y^{n}_i+dt*\mathbf{f}(t,\mathbf{y}) \end{aligned} \tag{1.1}$$
+& \Rightarrow y^{n+1}_i=y^{n}_i+dt*\mathbf{f}(t,\mathbf{y}) \end{aligned}$$
 
 # Method descrition
 Assuming $$h_n=t_{n+1}-t_n$$
@@ -66,7 +66,7 @@ $$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac
 
 $$\begin{aligned}
 &\Rightarrow \frac{y^{n+1}_i-y^{n}_i}{h_n}=\mathbf{f}(t_n,y_i^{n}) \\
-& \Rightarrow y^{n+1}_i=y^{n}_i+h_n*\mathbf{f}(t,y_i^{n}) \end{aligned} \tag{1.2}$$
+& \Rightarrow y^{n+1}_i=y^{n}_i+h_n*\mathbf{f}(t,y_i^{n}) \end{aligned}$$
 
 **说明：** 显然，此时未知数仅是$y^{n+1}_i$，而等式右边的均为已知数，故直接通过等式求出未知数，进行时间推进即可。
 
@@ -92,7 +92,7 @@ $$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac
 $$\begin{aligned}
 & \frac{y^{n+1}_i-y^{n}_i}{dt}=\mathbf{f}(t_{n+1},\mathbf{y^{n+1}}) \\
 & \Rightarrow y^{n+1}_i=y^{n}_i+dt*\mathbf{f}(t_{n+1},\mathbf{y^{n+1}})
-\end{aligned} \tag{1.3}$$
+\end{aligned}$$
 
 **说明:** 显然，此时等式左右两边均出现了未知数$y^{n+1}_i$，由于$\mathbf{f}$是已知的，故通常做法是将等式右边的$y^{n+1}_i$移到等式左边，再经过变形，获得一组方程组，联立方程组进行求解。
 
