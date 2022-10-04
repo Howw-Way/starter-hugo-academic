@@ -40,7 +40,7 @@ And this notes is based on the book "Numerical Methods for Computational Science
 # Problem description
 
 即给定初始条件和微分方程(时间导数)，要求按时间推进求解
-$$\bold{\dot{y}}=\bold{f}(t,\bold{y}),\space{} \bold{y(t_0)}=\bold{y_0}$$
+$$\mathbf {\dot{y}}=\bold{f}(t,\bold{y}),\space{} \bold{y(t_0)}=\bold{y_0}$$
 We can calculate the $\bold{y}$ on a temporal mesh covering the time interval between initial time $t_0$ and final time $T$.
 
 $$(\bold{y}^{n},h^{n}) \mapsto \bold{\Psi}(\bold{y}^{n},h^{n})=\bold{y}^{n+1}$$

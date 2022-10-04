@@ -39,5 +39,5 @@ content:
 
 {{% callout note %}}
 Quickly discover relevant content by [filtering publications](./publication/).
-Quickly discover relevant content by [filtering publications](./pub/).
+<!-- Quickly discover relevant content by [filtering publications](./pub/). -->
 {{% /callout %}}

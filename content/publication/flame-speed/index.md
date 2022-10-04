@@ -1,5 +1,5 @@
 ---
-title: 'Experimental investigation of laminar flame speeds of propane in $O2/CO2$ atmosphere and kinetic simulation'
+title: 'Experimental investigation of laminar flame speeds of propane in $O_2/CO_2$ atmosphere and kinetic simulation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -10,7 +10,7 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
+  - 'Tutor'
   - 'Equal contribution'
 
 date: '2020-02-13'
