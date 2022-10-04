@@ -87,21 +87,12 @@ $$\begin{aligned}
 Implict Euler method is based on backward difference quotient: 
 
 
-$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}(t_{n+1},\mathbf{y^{n+1}}), n=0,1,2,..,N-1$$
+$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}\left ( t_{n+1},\mathbf{y^{n+1}}\right ) , n=0,1,2,..,N-1$$
 
 
 $$\begin{aligned}
 &\Rightarrow \frac{y^{n+1}_i-y^{n}_i}{h_n}=\mathbf{f}(t_{n+1},y_i^{n+1}) \\
 & \Rightarrow y^{n+1}_i=y^{n}_i+h_n*\mathbf{f}(t_{n+1},y_i^{n+1}) \end{aligned}$$
-
-
-$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}(t_{n},\mathbf{y^{n+1}}), n=0,1,2,..,N-1$$
-
-
-$$\begin{aligned}
-& \frac{y^{n+1}_i-y^{n}_i}{dt}=\mathbf{f}(t_{n+1},\mathbf{y^{n+1}}) \\
-& \Rightarrow y^{n+1}_i=y^{n}_i+dt*\mathbf{f}(t_{n+1},\mathbf{y^{n+1}})
-\end{aligned}$$
 
 
 **说明:** 显然，此时等式左右两边均出现了未知数$y^{n+1}_i$，由于$\mathbf{f}$是已知的，故通常做法是将等式右边的$y^{n+1}_i$移到等式左边，再经过变形，获得一组方程组，联立方程组进行求解。
