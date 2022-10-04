@@ -4,10 +4,10 @@
 widget: portfolio
 
 # Activate this widget? true/false
-active: false
+active: true
 
 # This file represents a page section.
-headless: false
+headless: true
 
 
 # Order that this section appears on the page.
