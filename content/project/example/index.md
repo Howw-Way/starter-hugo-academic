@@ -30,7 +30,7 @@ url_video: ''
 # slides: example
 ---
 
-# Notes description
+# Projects description
 
 **Purpose:** This is my notes for the approximation methods of timestepping, including explicit Euler method, 
 
@@ -85,8 +85,9 @@ $$\begin{aligned}
 
 Implict Euler method is based on backward difference quotient: 
 
-$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}(t_{n+1},\mathbf{y^{n+1}}), n=0,1,2,..,N-1$$
+$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Forward \space{} difference}\approx \mathbf{f}(t_n,\mathbf{y^{n}}), n=0,1,2,..,N-1$$
 
+$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}(t_{n+1},\mathbf{y^{n+1}}), n=0,1,2,..,N-1$$
 
 $$\begin{aligned}
 & \frac{y^{n+1}_i-y^{n}_i}{dt}=\mathbf{f}(t,\mathbf{y^{n+1}}) \\
@@ -124,11 +125,11 @@ $$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac
 欧拉显示和欧拉隐式的精度都是一阶，而Runge-Kutta通过几次构造半时间步，获得了四阶精度，但龙格库塔本质上还是一个显示方法，并不涉及任何方程组的求解，可以理解为通过四次构造斜率，使得斜率最接近真实值
 
 $$\begin{aligned}
-& \mathbf{y}^{n+1}=\mathbf{y}^{n}+\frac{dt}{6}(k_1+2k_2+2k_3+k_4)\\
-& k_1=\mathbf{f}(t_n,\mathbf{y}_n)\\
-& k_2=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_1)\\
-& k_3=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_2)\\
-& k_4=\mathbf{f}(t_n+dt,\mathbf{y}_n+dtk_3)\\
+& \mathbf{y}^{n+1}=\mathbf{y}^{n}+\frac{dt}{6}(k_1+2k_2+2k_3+k_4) \\
+& k_1=\mathbf{f}(t_n,\mathbf{y}_n) \\
+& k_2=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_1) \\
+& k_3=\mathbf{f}(t_n+\frac{dt}{2},\mathbf{y}_n+\frac{dt}{2}k_2) \\
+& k_4=\mathbf{f}(t_n+dt,\mathbf{y}_n+dtk_3)
 \end{aligned}$$
 
 # Case: simple function
