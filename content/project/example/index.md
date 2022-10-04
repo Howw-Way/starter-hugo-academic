@@ -35,7 +35,7 @@ url_video: ''
 **Purpose:** This is my notes for the approximation methods of timestepping, including explicit Euler method, 
 
 **Reference:**
-And this notes is based on the book "Numerical Methods for Computational Science and Engineering" 
+Some part of this notes is based on the book "Numerical Methods for Computational Science and Engineering" 
 
 # Problem description
 
@@ -86,7 +86,13 @@ $$\begin{aligned}
 
 Implict Euler method is based on backward difference quotient: 
 
-$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Forward \space{} difference}\approx \mathbf{f}(t_n,\mathbf{y^{n}}), n=0,1,2,..,N-1$$
+
+$$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}(t_{n+1},\mathbf{y^{n+1}}), n=0,1,2,..,N-1$$
+
+
+$$\begin{aligned}
+&\Rightarrow \frac{y^{n+1}_i-y^{n}_i}{h_n}=\mathbf{f}(t_{n+1},y_i^{n+1}) \\
+& \Rightarrow y^{n+1}_i=y^{n}_i+h_n*\mathbf{f}(t_{n+1},y_i^{n+1}) \end{aligned}$$
 
 
 $$\mathbf{\dot{y}}=\mathbf{f}(t,\mathbf{y})\longleftrightarrow \underbrace{\frac{\mathbf{y}^{n+1}-\mathbf{y}^{n}}{h_n}}_{Backward \space{} difference}\approx \mathbf{f}(t_{n},\mathbf{y^{n+1}}), n=0,1,2,..,N-1$$
