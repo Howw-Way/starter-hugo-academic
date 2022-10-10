@@ -35,6 +35,8 @@ content:
       tag: Deep Learning
     - name: Simulation
       tag: Simulation
+    - name: Numerical methods
+      tag: Numerical methods
     - name: Other
       tag: Demo
 
