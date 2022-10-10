@@ -9,7 +9,7 @@ date: '2022-10-10T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Made by me
+  caption: A simple case from this project
   focal_point: Smart
 
 links:
