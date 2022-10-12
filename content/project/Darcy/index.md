@@ -124,6 +124,7 @@ The reason why we have to discretize the parameter is that in FVM method, we ass
 
 2. Discretization of $\lambda$:
     The permeability, in the TPFA method this is done by taking a distance-weighted harmonic average of the respective directional cell permeability.(即对相邻网格进行网格步长的加权平均)
+    
     $$\lambda _{ij}=(\bigtriangleup x_i+\bigtriangleup x_j)(\frac{\bigtriangleup x_i}{\lambda _{i,ij}}+\frac{\bigtriangleup x_j}{\lambda _{j,ij}})^{-1} \tag{1.13}$$
 
 3. Discretization of Eq. (1.11):
@@ -134,6 +135,7 @@ $$v_{ij}=-|\gamma _{ij}|\lambda_{ij}\delta u_{ij}=2|\gamma _{ij}|(\frac{\bigtria
 
 1. Simplize Eq.(1.14)
     Terms that do not involve the cell potentials $u_i$(unknown term) are usually gathered into an interface transmissibility $t_ij$(known term):    $t_{ij}=2|\gamma _{ij}|(\frac{\bigtriangleup x_i}{\lambda _{i,ij}}+\frac{\bigtriangleup x_j}{\lambda _{j,ij}})^{-1}$, so we can get:
+
     $$\sum_{j}t_{ij}(u_i-u_j)=\int _{\Omega}\frac{q_w}{\rho_w}d\Omega \tag{1.15}$$
 
 2. Solve the function
@@ -420,15 +422,15 @@ def loss_TPFA(P,v,Nx,Ny,K):
 
 #### 1.5.1 The distribution of pressure
 
-![](./figures/p.png#pic_right)
+![](./figure/p.png#pic_right)
 <center style="font-size:14px;color:#C0C0C0;">P</center>
 
 #### 1.5.1 The distribution of velocity
 
-![](./figures/vx.png)
+![](./figure/vx.png)
 <center style="font-size:14px;color:#C0C0C0;">v_x</center>
 
-![](./figures/vy.png)
+![](./figure/vy.png)
 <center style="font-size:14px;color:#C0C0C0;">v_y</center>
 
 ## Reference
