@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Resaerch intern
+  - title: Research intern
     company: Microsoft Research Asia (MSR Asia)
     company_url: 'https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/'
     company_logo: Microsoft_logo
