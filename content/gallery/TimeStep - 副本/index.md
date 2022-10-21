@@ -1,6 +1,6 @@
 ---
-title: Time marching
-summary: Notes for time marching method
+title: Time stepping
+summary: Notes for time stepping method
 tags:
   - Numerical methods
 date: '2016-04-27T00:00:00Z'
@@ -32,14 +32,14 @@ url_video: ''
 
 # Projects description
 
-**Purpose:** This is my notes for the approximation methods of marching, including explicit Euler method, implicit Euler method, implicit midpoint, and Runge-Kutta method. 
+**Purpose:** This is my notes for the approximation methods of timestepping, including explicit Euler method, 
 
 **Reference:**
 Some part of this notes is based on the book "Numerical Methods for Computational Science and Engineering" 
 
 # Problem description
 
-That is, the initial conditions and the differential equation (time derivative) are given, then the solution can be given by time marching.
+That is, the initial conditions and the differential equation (time derivative) are given, then the solution can be given by time stepping.
 
 $$\mathbf {\dot{y}}=\mathbf{f}(t,\mathbf{y}),\space{} \mathbf{y(t_0)}=\mathbf{y_0}$$
 We can calculate the $\mathbf{y}$ on a temporal mesh covering the time interval between initial time $t_0$ and final time $T$.
@@ -83,9 +83,9 @@ $$\begin{aligned}
 **优劣：** 推导简单，编程简单，且利于并行，但容易耗散，需要小时间步长(CFL)
 简单说"小步快走易并行"
 
-## Implicit Euler method
+## Implict Euler method
 
-Implicit Euler method is based on backward difference quotient: 
+Implict Euler method is based on backward difference quotient: 
 
 ![](./figure//eqIEM.jpg)
 <!-- 
