@@ -1,9 +1,9 @@
 ---
-title: Fourier neural operator
-summary: Notes for Fourier neural operator
+title: DeepONet
+summary: Notes for DeepONet
 tags:
   - Deep Learning
-date: '2022-10-07T00:00:00Z'
+date: '2022-9-07T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
