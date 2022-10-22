@@ -9,7 +9,7 @@ date: '2022-10-3T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo of the distribution of velocity at T0
+  caption: Photo of the distribution of velocity
   focal_point: Smart
 
 # links:
