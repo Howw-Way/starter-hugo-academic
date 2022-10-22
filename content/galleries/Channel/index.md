@@ -2,7 +2,7 @@
 title: FDM solver for incompressible flow
 summary: This is my sovler for incompressible flow, herein, used for channel flow. 
 tags:
-  - Other
+  - Simulation
 date: '2022-10-3T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
