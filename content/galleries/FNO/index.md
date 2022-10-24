@@ -129,7 +129,9 @@ $$u(x)=\int_{D} G_{a}(x, y) f(y) dy\tag{3.3}$$
 推导验证：
 此处再次结合微分算子，进行一次推导，由格林函数微分可得 $\mathcal{L}_a G(x, \cdot)=\delta_x$ 其中 $\delta_x$ 被称为狄拉克测度（dirac delta measure），测度这个概念比较抽象，在实数域里就是dirac函数。dirac函数有一个性质，就是和任意函数积分后为函数本身，基于此，可以有推导：
 
-$$\begin{aligned} \left(\mathcal{L}_{a} u\right)(x) &=\int_{D}\left(\mathcal{L}_{a} G(x, \cdot)\right)(y) f(y) d y \\ &=\int_D \delta_x(y) f(y) d y \\ &=f(x) \end{aligned} $$
+$$\begin{aligned} \left(\mathcal{L}_{a} u\right)(x) &=\int_{D}\left(\mathcal{L}_{a} G(x, \cdot)\right)(y)f(y)dy
+\\&=\int_D \delta_x(y)f(y)dy
+\\&=f(x) \end{aligned} $$
 
 即对u(x)取微分后得到了f(x)。
 
