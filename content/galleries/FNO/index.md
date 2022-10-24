@@ -110,13 +110,13 @@ x'是积分微元所在的区域，$G(x,x')$代表在适用于该问题的格林
 
 假设有一个二阶椭圆偏微分方程如下：
 
-$$\begin{aligned} -\nabla \cdot(a(x) \nabla u(x)) &=f(x),x \in D \\ 
-u(x) &=0, x \in \partial D \end{aligned} \tag{3.1}$$
+$$\begin{aligned} -\nabla \cdot(a(x) \nabla u(x)) =f(x),x \in D \\ 
+u(x) =0, x \in \partial D \end{aligned} \tag{3.1}$$
 
 其中$u(x)$是我们的目标求解对象(微分方程原函数)， $f(x)$ 就是右端项(微分方程)，在很多物理方程中被视为强迫项，而这个 $a(x)$ 是参数， $a \in \mathcal{A}$ ，其中 $\mathcal{A}$ 是参数空间。如果我们把其写成算子的形式，则表达成如下形式：
 
-$$\begin{aligned} \left(\mathcal{L}_{a} u\right)(x) &=f(x), x \in D \\ 
-u(x) &=0, x \in \partial D \end{aligned} \tag{3.2}$$
+$$\begin{aligned} \left(\mathcal{L}_{a} u\right)(x) =f(x), x \in D \\ 
+u(x) =0, x \in \partial D \end{aligned} \tag{3.2}$$
 
 其中 $\mathcal{L}_{a} \cdot=-\operatorname{div}(a \nabla \cdot) $，即微分算子，其下标 a 的意思是说在参数 a 时的算子 $\mathcal{L}$
 
