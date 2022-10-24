@@ -125,9 +125,9 @@ $$\begin{aligned} \left(\mathcal{L}_{a} u\right)(x) &=f(x), & & x \in D \\ u(x) 
 $$u(x)=\int_{D} G_{a}(x, y) f(y) dy\tag{3.3}$$
 
 推导验证：
-此处再次结合微分算子，进行一次推导，由格林函数微分可得 $\mathcal{L}_{a} G(x, \cdot)=\delta_{x}$ 其中 $\delta_{x}$ 被称为狄拉克测度（dirac delta measure），测度这个概念比较抽象，在实数域里就是dirac函数。dirac函数有一个性质，就是和任意函数积分后为函数本身，基于此，可以有推导：
+此处再次结合微分算子，进行一次推导，由格林函数微分可得 $\mathcal{L}_a G(x, \cdot)=\delta_x$ 其中 $\delta_x$ 被称为狄拉克测度（dirac delta measure），测度这个概念比较抽象，在实数域里就是dirac函数。dirac函数有一个性质，就是和任意函数积分后为函数本身，基于此，可以有推导：
 
-$$\begin{aligned} \left(\mathcal{L}_{a} u\right)(x) &=\int_{D}\left(\mathcal{L}_{a} G(x, \cdot)\right)(y) f(y) d y \\ &=\int_{D} \delta_{x}(y) f(y) d y \\ &=f(x) \end{aligned} $$
+$$\begin{aligned} \left(\mathcal{L}_a u\right)(x) &=\int_{D}\left(\mathcal{L}_a G(x, \cdot)\right)(y) f(y) d y \\ &=\int_D \delta_x(y) f(y) d y \\ &=f(x) \end{aligned} $$
 即对u(x)取微分后得到了f(x)。
 
 ### 3.1.3 算子替代——FNO结构
@@ -160,7 +160,7 @@ $$\left(\mathcal{K}(a ; \phi) v_{t}\right)(x):=\int_{D} \kappa(x, y, a(x), a(y) 
 
 傅立叶变换的表达式如下
 
-$$(\mathcal{F} f)_{j}(k)=\int_{D} f_{j}(x) e^{-2 i \pi\langle x, k\rangle} \mathrm{d} x, \quad\left(\mathcal{F}^{-1} f\right)_{j}(x)=\int_{D} f_{j}(k) e^{2 i \pi\langle x, k\rangle} \mathrm{d} k\tag{3.6}$$
+$$(\mathcal{F} f)_{j}(k)=\int_{D} f_{j}(x) e^{-2 i \pi\langle x, k\rangle} \mathrm{d} x, \quad\left(\mathcal{F}^{-1} f\right)_{j}(x)=\int_{D} f_{j}(k) e^{2 i \pi\langle x, k\rangle} \mathrm{d} k \tag{3.6}$$
 
 则可以推出
 
@@ -209,12 +209,12 @@ $$v_{t+1}(x):=\sigma\left(W v_{t}(x)+\left(\mathcal{K}(a ; \phi) v_{t}\right)(x)
 
 <!-- $$\begin{aligned} \partial_{t} w(x, t)+u(x, t) \cdot \nabla w(x, t) &=\nu \Delta w(x, t)+f(x), & & x \in(0,1)^{2}, t in(0, T] \\ \nabla \cdot u(x, t) &=0, & & x \in(0,1)^{2}, t \in[0, T] \\ w(x, 0) &=w_{0}(x), & & x \in(0,1)^{2} \end{aligned}\\$$ -->
 动量方程：
-$$\begin{aligned} \partial_{t} w(x, t)+u(x, t) \cdot \nabla w(x, t) &=\nu \Delta w(x, t)+f(x), & & x \in(0,1)^{2}, t \in (0, T] \end{aligned}\tag{4.1}$$
+$$\begin{aligned} \partial_{t} w(x, t)+u(x, t) \cdot \nabla w(x, t) &=\nu \Delta w(x, t)+f(x),x \in(0,1)^{2}, t \in (0, T] \end{aligned}\tag{4.1}$$
 
 连续型方程：
-$$ \begin{aligned}\nabla \cdot u(x, t) &=0, & & x \in(0,1)^{2}, t \in[0, T]\end{aligned}\tag{4.2}$$
+$$ \begin{aligned}\nabla \cdot u(x, t) &=0, && x \in(0,1)^{2}, t \in[0, T]\end{aligned}\tag{4.2}$$
 
-周期性条件：**?**
+周期性条件：
 
 $$ \begin{aligned}w(x, 0) &=w_{0}(x), & & x \in(0,1)^{2} \end{aligned}\tag{4.3}$$
 
