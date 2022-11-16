@@ -37,7 +37,7 @@ url_video: ''
 
 This is my notes for simulation a 2D compressible fluid flow with Finite Volume Method. Original version is written by Philip Mocz[1], respect to him for his work and the spirit of open-source.
 
-Generally speaking, FVM discretizes the partial differential equations with finite volume in tiny girds. The conservation equations are driven in each volume, so the variables are naturally conserved in each volume. The variables change in time and space, and be calculated with the flux in each face of a volume. As the flux in each face is reconstructed using the variables stored in each grid. 
+Generally speaking, FVM discretizes the partial differential equations with finite volume in tiny girds. The conservation equations are derived in each volume, so the variables are naturally conserved in each volume. The variables change in time and space, and be calculated with the flux in each face of a volume. While the flux in each face is reconstructed using the variables stored in each grid.
 
 **Reference:**
 [1][URL](https://levelup.gitconnected.com/create-your-own-finite-volume-fluid-simulation-with-python-8f9eab0b8305)
