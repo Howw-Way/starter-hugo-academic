@@ -19,7 +19,7 @@ authors:
 #   - 'Equal contribution'
 
 date: 'Coming soon'
-# doi: 'https://doi.org/10.1016/j.fuel.2020.117347'
+doi: 'Coming soon'
 
 
 # Schedule page publish date (NOT publication's date).
