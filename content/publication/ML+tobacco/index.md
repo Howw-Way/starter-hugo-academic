@@ -46,7 +46,7 @@ The results showed that after feature selection based on Pearson correlation coe
 In addition, the predicted derivative thermogravimetry (DTG) profiles were integrated to obtain the TGA profiles, and the results agreed very well with the experimental data ($R^{2}>0.99$)
 
 # Summary. An optional shortened abstract.
-summary: Using mahcine learning algorithm to model pyrolysis with a differential layer for imporving accuracy
+summary: Using mahcine learning algorithm to model pyrolysis with a differential layer for imporving accuracy of model
 
 tags: []
 
