@@ -48,7 +48,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://doi.org/10.1021/acsomega.2c05098'
+# url_pdf: 'https://doi.org/10.1021/acsomega.2c05098'
 url_code: ''
 url_dataset: ''
 url_poster: ''
