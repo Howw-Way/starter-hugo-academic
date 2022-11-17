@@ -1,14 +1,14 @@
 ---
-title: 'Toba-CPD: An Extended Chemical Percolation Devolatilization Model for Tobacco Pyrolysis'
+title: 'Predicting tobacco pyrolysis based on chemical constituents and heating conditions using machine learning approaches'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
+  - Jiangkuan Xing
+  - Kun Luo
   - Yuhan Peng
-  - Hua Huang
-  - Jianren Fan
   - et.al.
 
 
@@ -17,11 +17,11 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2022-10-05'
+date: '2022-11-15'
 doi: 'https://doi.org/10.1021/acsomega.2c05098'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-10-05'
+publishDate: '2022-11-15'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -30,13 +30,14 @@ publishDate: '2022-10-05'
 publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
-publication: In *ACS Omega*
-publication_short: In *ACS Omega*
+publication: In *Fuel*
+publication_short: In *Fuel*
 
-abstract: Tobacco features chemical compositions different from that of raw lignocellulosic biomass. Currently, the performance of network models, like Bio-Chemical Percolation Devolatilization (Bio-CPD), on tobacco pyrolysis is unclear, and only global kinetics have been proposed for tobacco devolatilization, which does not have the versatility for a wide range of heating conditions and tobacco types. To address this issue, the present work first assessed the performance of the Bio-CPD model on tobacco pyrolysis through an a priori study, which showed large deviations. Afterward, an extended Chemical Percolation Devolatilization model for tobacco pyrolysis (Toba-CPD) was developed by modifying the kinetic parameters using a grid-search optimization strategy. The process of grid-search optimization strategy is based on the kinetic parameters of the Bio-CPD model and modified with experimental results of 11 tobacco types under a wide range of heating rates. Finally, the performance of Toba-CPD was measured with experimental results which were not used during parameters optimization. Results demonstrated that the Toba-CPD models could well reproduce the pyrolysis of various tobacco types under a wide range of heating rates ($R^2 > 0.957$).
+abstract: Tobacco is a special type of biomass that consists of complex chemical constituents. Currently, only global kinetic models have been developed for tobacco pyrolysis, but accurate kinetics considering the effects of the complex chemical constituents and heating conditions have not been well established. To this end, a general tobacco pyrolysis model was developed based on the complex chemical constituents and heating conditions using machine learning approaches.Specifically, chemical analysis and thermogravimetric analysis (TGA) of 49 tobacco samples under a wide range of heating rates were first conducted by experiments and then used to construct a database for the model development. Subsequently, the constructed database was divided into seen and unseen data-sets for the model development and evaluation.General pyrolysis models for single/multiple heating rates were developed from the seen data-set using an advanced machine learning approach, the Extremely Randomized Trees (Extra-Trees, ET).The performances of models were further evaluated on the unseen data-set through comparisons with the experimental data.
+The results showed that after feature selection based on Pearson correlation coefficient and hyper-parameters optimization, the trained models could accurately reproduce the tobacco pyrolysis behaviour on the unseen data with $R^2>0.967$ based on a single heating rate and with $R^2>0.974$ based on all heating rates.In addition, the predicted derivative thermogravimetry (DTG) profiles were integrated to obtain the TGA profiles, and the results agreed very well with the experimental data ($R^2>0.99$).
 
 # Summary. An optional shortened abstract.
-summary: proposing an optimization algorithm named ``grid-search optimization strategy" to modify a pyrolysis model for tobacco. 
+summary: Using mahcine learning algorithm to model pyrolysis with a differential layer for imporving accuracy of model. 
 
 tags: []
 
