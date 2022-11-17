@@ -19,7 +19,7 @@ authors:
 #   - 'Equal contribution'
 
 date: '2022-12-15'
-doi: 'Coming soon'
+doi: 'https://doi.org/10.1016/j.fuel.2021.122248'
 
 
 # Schedule page publish date (NOT publication's date).
