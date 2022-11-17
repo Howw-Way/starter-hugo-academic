@@ -18,12 +18,12 @@ authors:
 #   - 'Tutor'
 #   - 'Equal contribution'
 
-date: '2022-12-15'
-doi: 'https://doi.org/10.1016/j.fuel.2021.122248'
+date: '2022-11-15'
+# doi: 'https://doi.org/10.1016/j.fuel.2021.122248'
 
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-12-15'
+publishDate: '2022-11-15'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -35,15 +35,8 @@ publication_types: ['2']
 publication: In *Fuel*
 publication_short: In *Fuel*
 
-abstract: Tobacco is a special type of biomass that consists of complex chemical constituents. 
-Currently, only global kinetic models have been developed for tobacco pyrolysis, but accurate kinetics considering the effects of the complex chemical constituents and heating conditions have not been well established. 
-To this end, a general tobacco pyrolysis model was developed based on the complex chemical constituents and heating conditions using machine learning approaches.
-Specifically, chemical analysis and thermogravimetric analysis (TGA) of 49 tobacco samples under a wide range of heating rates were first conducted by experiments and then used to construct a database for the model development. 
-Subsequently, the constructed database was divided into seen and unseen data-sets for the model development and evaluation.
-General pyrolysis models for single/multiple heating rates were developed from the seen data-set using an advanced machine learning approach, the Extremely Randomized Trees (Extra-Trees, ET).
-The performances of models were further evaluated on the unseen data-set through comparisons with the experimental data.
-The results showed that after feature selection based on Pearson correlation coefficient and hyper-parameters optimization, the trained models could accurately reproduce the tobacco pyrolysis behaviour on the unseen data with $R^{2}>0.967$ based on a single heating rate and with $R^{2}>0.974$ based on all heating rates.
-In addition, the predicted derivative thermogravimetry (DTG) profiles were integrated to obtain the TGA profiles, and the results agreed very well with the experimental data ($R^{2}>0.99$)
+abstract: Tobacco is a special type of biomass that consists of complex chemical constituents. Currently, only global kinetic models have been developed for tobacco pyrolysis, but accurate kinetics considering the effects of the complex chemical constituents and heating conditions have not been well established. To this end, a general tobacco pyrolysis model was developed based on the complex chemical constituents and heating conditions using machine learning approaches.Specifically, chemical analysis and thermogravimetric analysis (TGA) of 49 tobacco samples under a wide range of heating rates were first conducted by experiments and then used to construct a database for the model development. Subsequently, the constructed database was divided into seen and unseen data-sets for the model development and evaluation.General pyrolysis models for single/multiple heating rates were developed from the seen data-set using an advanced machine learning approach, the Extremely Randomized Trees (Extra-Trees, ET).The performances of models were further evaluated on the unseen data-set through comparisons with the experimental data.
+The results showed that after feature selection based on Pearson correlation coefficient and hyper-parameters optimization, the trained models could accurately reproduce the tobacco pyrolysis behaviour on the unseen data with $R^{2}>0.967$ based on a single heating rate and with $R^{2}>0.974$ based on all heating rates.In addition, the predicted derivative thermogravimetry (DTG) profiles were integrated to obtain the TGA profiles, and the results agreed very well with the experimental data ($R^{2}>0.99$)
 
 # Summary. An optional shortened abstract.
 summary: Using mahcine learning algorithm to model pyrolysis with a differential layer for imporving accuracy of model
