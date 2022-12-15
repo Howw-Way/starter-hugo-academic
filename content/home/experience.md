@@ -28,7 +28,7 @@ experience:
     company_logo: Microsoft_logo
     location: Beijing
     date_start: '2022-08-02'
-    date_end: ''
+    date_end: '2022-11-08'
     description: |2-
         Responsibilities include:
         * Working on using AI algorithm (Fourier Neural Operator, FNO) solving Partial Differential Equation (PDE)

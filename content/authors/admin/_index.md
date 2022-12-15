@@ -19,12 +19,12 @@ organizations:
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
-interests:
+Solid background in:
   - Artificial Intelligence for Scicence
   - Simulation based on Physics
-  - Computer Graphics
   - Numerical Calculation Algorithms
   - Deep Learning
+  - Computational fluid dynamics
 
 # Education to show in About widget
 education:
