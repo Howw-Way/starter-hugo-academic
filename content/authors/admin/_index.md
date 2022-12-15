@@ -19,7 +19,7 @@ organizations:
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
-Solid background in:
+interest:
   - Artificial Intelligence for Scicence
   - Simulation based on Physics
   - Numerical Calculation Algorithms
